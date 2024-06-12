@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <section id="header">
+        <a href="#"><img src="" alt="logo" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="">Home</a></li>
+                <li><a class="active" href="">Shop</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Compte</a></li>
+                <li><a href="">Contact</a></li>
+                <li id="lg-bag"><a href=""><i class="fa fa-shopping-bag bag"></i></a></li> 
+                <a href="#" id="close"><i class="bi bi-x"></i> </a> 
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href=""><i class="fa fa-shopping-bag bag"></i></a>
+            <i id="bar" class="fa fa-bars"></i>
+        </div>
+    </section>
+    <!--End Of Navbar Section -->
+
+    <!-- Product Details Section -->
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="f1.jpg" alt="" width="100%" id="MainImg">
+            </div>
+            <div class="single-pro-details">
+                <h6>Category</h6>
+                <h4>product name</h4>
+                <h3>price</h3>
+                <input type="number" placeholder="quantite">
+                <button class="normal">Add To Cart</button>
+                <h4>Product Description</h4>
+                <span>Description</span>
+            </div>
+        </section>
+    <!-- End Of Product Details Section -->
+
+    <!-- Latest Products Section -->
+        <section id="product1" class="section-p1">
+            <h2>Featured Products</h2>
+            <p>Summer Collection New Modern Design</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="" alt="product1">
+                    <div class="des">
+                        <span>category</span>
+                        <h5>product name</h5>
+                        <h4>price</h4>
+                    </div>
+                    <a href="#"><i class="bi bi-cart4 cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="" alt="product1">
+                    <div class="des">
+                        <span>category</span>
+                        <h5>product name</h5>
+                        <h4>price</h4>
+                    </div>
+                    <a href="#"><i class="bi bi-cart4 cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="" alt="product1">
+                    <div class="des">
+                        <span>category</span>
+                        <h5>product name</h5>
+                        <h4>price</h4>
+                    </div>
+                    <a href="#"><i class="bi bi-cart4 cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="" alt="product1">
+                    <div class="des">
+                        <span>category</span>
+                        <h5>product name</h5>
+                        <h4>price</h4>
+                    </div>
+                    <a href="#"><i class="bi bi-cart4 cart"></i></a>
+                </div>
+            </div>
+        </section>
+    <!-- End Of Latest Products Section -->
+
+    <!-- Newsletters Section -->
+        <section id="newsletter">
+            <div class="newstext">
+                <h4>Sign Up For Newsletters</h4>
+                <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+            </div>
+            <div class="form">
+                <input type="email" placeholder="Your email address">
+                <button class="normal">Sign Up</button>
+            </div>
+        </section>
+    <!--End Of Newsletters Section -->
+
+    <!-- Footer Section -->
+        <footer class="section-p1">
+            <div class="col">
+                <img src="" alt="logo">
+                <br>
+                <h4>Contact</h4>
+                <p><strong>Address:</strong>........................</p>
+                <p><strong>Phone:</strong>........................</p>
+                <p><strong>Hours:</strong>..:.. - ..:.. , ... - ...</p>
+                <br>
+            </div>
+            <div class="col about">
+                <h4>About</h4>
+                <a href="">About Us</a>
+                <a href="">Delivery Information</a>
+                <a href="">Contact Us</a>
+            </div>
+            <div class="col account">
+                <h4>My Account</h4>
+                <a href="">Sign In</a>
+                <a href="">View Cart</a>
+                <a href="">My Wishlist</a>
+                <a href="">Track My Order</a>
+                <a href="">Help</a>
+            </div>
+            
+            <div class=" col follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <strong>&copy; Copy Right {{date('Y')}}. All Rights Reserved</strong>
+            </div>
+        </footer>
+    <!-- End Of Footer Section -->
+    <script src="script.js"></script>
+    
+</body>
+</html>

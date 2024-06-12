@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+        <section id="header">
+            <a href="#"><img src="" alt="logo" class="logo"></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Compte</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li id="lg-bag"><a class="active" href=""><i class="fa fa-shopping-bag bag"></i></a></li> 
+                    <a  href="#" id="close"><i class="bi bi-x"></i> </a> 
+                </ul>
+            </div>
+            <div id="mobile">
+                <a class="active" href=""><i class="fa fa-shopping-bag bag"></i></a>
+                <i id="bar" class="fa fa-bars"></i>
+            </div>
+        </section>
+    <!--End Of Navbar Section -->
+
+    <!-- Hero Section -->
+        <section id="page-header-contact">
+            <h2>#Cart</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+    <!-- End Of Hero Section -->
+
+    <!-- Cart Section -->
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>IMAGE</td>
+                        <td>PRODUCT NAME</td>
+                        <td>QUANTITY</td>
+                        <td>PRICE</td>
+                        <td>SUBTOTALE</td>
+                        <td >REMOVE</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="f1.jpg" alt="product image"></td>
+                        <td>...................</td>
+                        <td><input type="number" name="" id=""></td>
+                        <td>price</td>
+                        <td>........</td>
+                        <td><a href=""><i class="fa fa-times-circle close"></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div class="subtotal">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>total price</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Pay Trough Paypal</button>
+            </div>
+        </section>
+    <!-- End Of Cart Section -->
+    
+    <!-- Footer Section -->
+        <footer class="section-p1">
+            <div class="col">
+                <img src="" alt="logo">
+                <br>
+                <h4>Contact</h4>
+                <p><strong>Address:</strong>........................</p>
+                <p><strong>Phone:</strong>........................</p>
+                <p><strong>Hours:</strong>..:.. - ..:.. , ... - ...</p>
+                <br>
+            </div>
+            <div class="col about">
+                <h4>About</h4>
+                <a href="">About Us</a>
+                <a href="">Delivery Information</a>
+                <a href="">Contact Us</a>
+            </div>
+            <div class="col account">
+                <h4>My Account</h4>
+                <a href="">Sign In</a>
+                <a href="">View Cart</a>
+                <a href="">My Wishlist</a>
+                <a href="">Track My Order</a>
+                <a href="">Help</a>
+            </div>
+            
+            <div class=" col follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <strong>&copy; Copy Right {{date('Y')}}. All Rights Reserved</strong>
+            </div>
+        </footer>
+    <!-- End Of Footer Section -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
